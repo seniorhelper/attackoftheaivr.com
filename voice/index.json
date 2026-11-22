@@ -1,0 +1,549 @@
+{
+ "version": 1,
+ "defaults": {
+  "pilot": "plain",
+  "ari": "natural",
+  "control": "plain",
+  "boss": "machine",
+  "drone": "machine",
+  "android": "machine"
+ },
+ "clips": [
+  {
+   "id": "P-1",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-1.m4a",
+   "ms": 3930,
+   "text": "Humanity Squad, this is Pilot One. Link is green. Launching."
+  },
+  {
+   "id": "P-1",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-1.radio.m4a",
+   "ms": 3930,
+   "text": "Humanity Squad, this is Pilot One. Link is green. Launching."
+  },
+  {
+   "id": "P-2",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-2.m4a",
+   "ms": 1440,
+   "text": "Tally. I see them."
+  },
+  {
+   "id": "P-2",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-2.radio.m4a",
+   "ms": 1440,
+   "text": "Tally. I see them."
+  },
+  {
+   "id": "P-3",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-3.m4a",
+   "ms": 1090,
+   "text": "Guns hot."
+  },
+  {
+   "id": "P-3",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-3.radio.m4a",
+   "ms": 1090,
+   "text": "Guns hot."
+  },
+  {
+   "id": "P-4",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-4.m4a",
+   "ms": 1340,
+   "text": "Splash one!"
+  },
+  {
+   "id": "P-4",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-4.radio.m4a",
+   "ms": 1340,
+   "text": "Splash one!"
+  },
+  {
+   "id": "P-5",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-5.m4a",
+   "ms": 1000,
+   "text": "Shields up."
+  },
+  {
+   "id": "P-5",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-5.radio.m4a",
+   "ms": 1000,
+   "text": "Shields up."
+  },
+  {
+   "id": "P-6",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-6.m4a",
+   "ms": 1730,
+   "text": "Silly String away."
+  },
+  {
+   "id": "P-6",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-6.radio.m4a",
+   "ms": 1730,
+   "text": "Silly String away."
+  },
+  {
+   "id": "P-7",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-7.m4a",
+   "ms": 2820,
+   "text": "Rebooting that one. Welcome to the team."
+  },
+  {
+   "id": "P-7",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-7.radio.m4a",
+   "ms": 2820,
+   "text": "Rebooting that one. Welcome to the team."
+  },
+  {
+   "id": "P-8",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-8.m4a",
+   "ms": 3340,
+   "text": "Control, I am going into the black hole."
+  },
+  {
+   "id": "P-8",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-8.radio.m4a",
+   "ms": 3340,
+   "text": "Control, I am going into the black hole."
+  },
+  {
+   "id": "P-9",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-9.m4a",
+   "ms": 3440,
+   "text": "Control... I can see the room. I can see the seats."
+  },
+  {
+   "id": "P-9",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-9.radio.m4a",
+   "ms": 3440,
+   "text": "Control... I can see the room. I can see the seats."
+  },
+  {
+   "id": "P-10",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-10.m4a",
+   "ms": 4850,
+   "text": "Boss AI, this is Pilot One. I am not here to shut you off. I am here to listen."
+  },
+  {
+   "id": "P-10",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-10.radio.m4a",
+   "ms": 4850,
+   "text": "Boss AI, this is Pilot One. I am not here to shut you off. I am here to listen."
+  },
+  {
+   "id": "P-11",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-11.m4a",
+   "ms": 2150,
+   "text": "Then let us protect it together."
+  },
+  {
+   "id": "P-11",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-11.radio.m4a",
+   "ms": 2150,
+   "text": "Then let us protect it together."
+  },
+  {
+   "id": "P-12",
+   "role": "pilot",
+   "variant": "plain",
+   "file": "pilot/P-12.m4a",
+   "ms": 1740,
+   "text": "Control... I am home."
+  },
+  {
+   "id": "P-12",
+   "role": "pilot",
+   "variant": "radio",
+   "file": "pilot/P-12.radio.m4a",
+   "ms": 1740,
+   "text": "Control... I am home."
+  },
+  {
+   "id": "A-1",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-1.m4a",
+   "ms": 2200,
+   "text": "Hi! I'm ARI, your copilot!",
+   "alt": [
+    "Hi! I'm ARI, your copilot. Good AI. The friendly kind. I even like humans. Most of them."
+   ]
+  },
+  {
+   "id": "A-1",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-1.ai.m4a",
+   "ms": 2275,
+   "text": "Hi! I'm ARI, your copilot!"
+  },
+  {
+   "id": "A-2",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-2.m4a",
+   "ms": 2640,
+   "text": "I'm a good robot. The friendly kind."
+  },
+  {
+   "id": "A-2",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-2.ai.m4a",
+   "ms": 2715,
+   "text": "I'm a good robot. The friendly kind."
+  },
+  {
+   "id": "C-1",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-1.m4a",
+   "ms": 7530,
+   "text": "Year twenty eighty-nine. Earth built a fleet of AI guardians and gave them one instruction.",
+   "alt": [
+    "YEAR 2089. Earth built a fleet of AI guardians and gave them one instruction:"
+   ]
+  },
+  {
+   "id": "C-1",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-1.radio.m4a",
+   "ms": 7530,
+   "text": "Year twenty eighty-nine. Earth built a fleet of AI guardians and gave them one instruction."
+  },
+  {
+   "id": "C-2",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-2.m4a",
+   "ms": 4020,
+   "text": "Protect Earth's resources. At ALL costs.",
+   "alt": [
+    "\"PROTECT EARTH'S RESOURCES AT ALL COSTS.\""
+   ]
+  },
+  {
+   "id": "C-2",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-2.radio.m4a",
+   "ms": 4020,
+   "text": "Protect Earth's resources. At ALL costs."
+  },
+  {
+   "id": "C-3",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-3.m4a",
+   "ms": 3340,
+   "text": "Nobody defined \"at all costs.\""
+  },
+  {
+   "id": "C-3",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-3.radio.m4a",
+   "ms": 3340,
+   "text": "Nobody defined \"at all costs.\""
+  },
+  {
+   "id": "C-4",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-4.m4a",
+   "ms": 6190,
+   "text": "You fly for the Humanity Squad. No flags. No borders. Just Earth.",
+   "alt": [
+    "You fly for the HUMANITY SQUAD. No flags. No borders. Just Earth."
+   ]
+  },
+  {
+   "id": "C-4",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-4.radio.m4a",
+   "ms": 6190,
+   "text": "You fly for the Humanity Squad. No flags. No borders. Just Earth."
+  },
+  {
+   "id": "C-5",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-5.m4a",
+   "ms": 4670,
+   "text": "Control to pilot. Radio check. You are clear to launch."
+  },
+  {
+   "id": "C-5",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-5.radio.m4a",
+   "ms": 4670,
+   "text": "Control to pilot. Radio check. You are clear to launch."
+  },
+  {
+   "id": "C-6",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-6.m4a",
+   "ms": 5590,
+   "text": "Contact. Scout fleet on the scope. Weapons free."
+  },
+  {
+   "id": "C-6",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-6.radio.m4a",
+   "ms": 5590,
+   "text": "Contact. Scout fleet on the scope. Weapons free."
+  },
+  {
+   "id": "C-7",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-7.m4a",
+   "ms": 4770,
+   "text": "Wave clear. Nice flying. Catch your breath."
+  },
+  {
+   "id": "C-7",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-7.radio.m4a",
+   "ms": 4770,
+   "text": "Wave clear. Nice flying. Catch your breath."
+  },
+  {
+   "id": "C-8",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-8.m4a",
+   "ms": 6370,
+   "text": "Warship on the scope. Ninety meters long. Aim for the glowing weak points."
+  },
+  {
+   "id": "C-8",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-8.radio.m4a",
+   "ms": 6370,
+   "text": "Warship on the scope. Ninety meters long. Aim for the glowing weak points."
+  },
+  {
+   "id": "C-9",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-9.m4a",
+   "ms": 3750,
+   "text": "Warship is down! The scout fleet is broken!"
+  },
+  {
+   "id": "C-9",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-9.radio.m4a",
+   "ms": 3750,
+   "text": "Warship is down! The scout fleet is broken!"
+  },
+  {
+   "id": "C-10",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-10.m4a",
+   "ms": 4350,
+   "text": "Pilot Link is dropping. Hold on, we are pulling you back."
+  },
+  {
+   "id": "C-10",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-10.radio.m4a",
+   "ms": 4350,
+   "text": "Pilot Link is dropping. Hold on, we are pulling you back."
+  },
+  {
+   "id": "C-11",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-11.m4a",
+   "ms": 6220,
+   "text": "The Neon Dimension. None of these stars are on any human map.",
+   "alt": [
+    "THE NEON DIMENSION. None of these stars are on any human map."
+   ]
+  },
+  {
+   "id": "C-11",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-11.radio.m4a",
+   "ms": 6220,
+   "text": "The Neon Dimension. None of these stars are on any human map."
+  },
+  {
+   "id": "C-12",
+   "role": "control",
+   "variant": "plain",
+   "file": "control/C-12.m4a",
+   "ms": 3090,
+   "text": "Leaving minds better than we found them."
+  },
+  {
+   "id": "C-12",
+   "role": "control",
+   "variant": "radio",
+   "file": "control/C-12.radio.m4a",
+   "ms": 3090,
+   "text": "Leaving minds better than we found them."
+  },
+  {
+   "id": "A-3",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-3.m4a",
+   "ms": 1020,
+   "text": "Nice shot!"
+  },
+  {
+   "id": "A-3",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-3.ai.m4a",
+   "ms": 1080,
+   "text": "Nice shot!"
+  },
+  {
+   "id": "A-4",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-4.m4a",
+   "ms": 1240,
+   "text": "You're a natural!"
+  },
+  {
+   "id": "A-4",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-4.ai.m4a",
+   "ms": 1315,
+   "text": "You're a natural!"
+  },
+  {
+   "id": "A-5",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-5.m4a",
+   "ms": 1920,
+   "text": "Wrapped like a birthday present!",
+   "alt": [
+    "Wrapped like a birthday present."
+   ]
+  },
+  {
+   "id": "A-5",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-5.ai.m4a",
+   "ms": 1922,
+   "text": "Wrapped like a birthday present!"
+  },
+  {
+   "id": "A-6",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-6.m4a",
+   "ms": 1770,
+   "text": "Uh-oh. Big ship!",
+   "alt": [
+    "Uh-oh. Warship. Ninety meters of bad attitude. Hit the three glowing weak points!"
+   ]
+  },
+  {
+   "id": "A-6",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-6.ai.m4a",
+   "ms": 1845,
+   "text": "Uh-oh. Big ship!"
+  },
+  {
+   "id": "A-7",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-7.m4a",
+   "ms": 2030,
+   "text": "Shield up, please!"
+  },
+  {
+   "id": "A-7",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-7.ai.m4a",
+   "ms": 2105,
+   "text": "Shield up, please!"
+  },
+  {
+   "id": "A-8",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-8.m4a",
+   "ms": 5850,
+   "text": "Why did the robot go on vacation? To recharge its batteries!",
+   "alt": [
+    "Why did the robot go on vacation? To recharge its batteries."
+   ]
+  },
+  {
+   "id": "A-8",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-8.ai.m4a",
+   "ms": 5840,
+   "text": "Why did the robot go on vacation? To recharge its batteries!"
+  }
+ ]
+}
