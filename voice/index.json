@@ -544,6 +544,64 @@
    "file": "ari/A-8.ai.m4a",
    "ms": 5840,
    "text": "Why did the robot go on vacation? To recharge its batteries!"
+  },
+  {
+   "id": "A-10",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-10.m4a",
+   "ms": 1650,
+   "text": "What did they want?",
+   "alt": [
+    "Captain… they keep saying nobody asked what they wanted. What DID they want?",
+    "Captain... the machines keep calling us the threat. What if they just misunderstood their own instructions?"
+   ]
+  },
+  {
+   "id": "A-10",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-10.ai.m4a",
+   "ms": 1710,
+   "text": "What did they want?"
+  },
+  {
+   "id": "A-11",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-11.m4a",
+   "ms": 2930,
+   "text": "You listened to them. That's harder.",
+   "alt": [
+    "You did it. You didn't beat them. You LISTENED to them. That's harder."
+   ]
+  },
+  {
+   "id": "A-11",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-11.ai.m4a",
+   "ms": 3005,
+   "text": "You listened to them. That's harder."
+  },
+  {
+   "id": "A-12",
+   "role": "ari",
+   "variant": "natural",
+   "file": "ari/A-12.m4a",
+   "ms": 2840,
+   "text": "Wiggle your toes. Yep, still there!",
+   "alt": [
+    "Welcome back to your actual body. Wiggle your toes. Yep, still attached."
+   ]
+  },
+  {
+   "id": "A-12",
+   "role": "ari",
+   "variant": "ai",
+   "file": "ari/A-12.ai.m4a",
+   "ms": 2870,
+   "text": "Wiggle your toes. Yep, still there!"
   }
  ]
 }
